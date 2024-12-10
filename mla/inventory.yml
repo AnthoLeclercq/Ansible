@@ -1,0 +1,15 @@
+hosts:
+  webserver:
+    ssh_address: 16.16.122.157
+    ssh_port: 22
+    ssh_user: admin
+    ssh_password:
+    ssh_key_file: ./AnsibleKey.pem
+
+  # bastion:
+  #   ssh_address:
+  #   ssh_port:
+  #   ssh_user:
+  #   ssh_password:
+  #   ssh_key_file:
+#selection + cmd + shift + / pour tout commenter/decommenter
